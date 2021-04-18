@@ -1,0 +1,26 @@
+{
+    "name": "__MSG_extName__",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "description": "__MSG_extDesc__",
+    "default_locale": "en",
+    "permissions": [
+        "activeTab",
+        "contentSettings",
+        "storage"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    },
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Alt+J"
+            }
+        }
+    }
+}

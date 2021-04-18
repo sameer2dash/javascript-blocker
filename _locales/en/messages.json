@@ -1,0 +1,35 @@
+{
+    "extName": {
+        "message": "JavaScript Blocker"
+    },
+    "extDesc": {
+        "message": "Quickly toggle JavaScript on a site with a keybind"
+    },
+    "workingText": {
+        "message": "Working..."
+    },
+    "shortcutText": {
+        "message": "Shortcut key: Alt+J"
+    },
+    "invalidSite": {
+        "message": "Error: Current page is not a valid website"
+    },
+    "noJs": {
+        "message": "Error: Could not retrieve JavaScript settings for this site"
+    },
+    "js_allowed": {
+        "message": "JavaScript is now allowed on this site."
+    },
+    "js_blocked": {
+        "message": "JavaScript is now blocked on this site."
+    },
+    "optionsText": {
+        "message": "Options"
+    },
+    "refreshToggle": {
+        "message": "Refresh page on toggle"
+    },
+    "save": {
+        "message": "Save"
+    }
+}

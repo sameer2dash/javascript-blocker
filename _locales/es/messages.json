@@ -1,0 +1,35 @@
+{
+    "extName": {
+        "message": "Bloqueador de JavaScript"
+    },
+    "extDesc": {
+        "message": "Alternar rápidamente el JavaScript en un sitio con un keybind"
+    },
+    "workingText": {
+        "message": "Trabajando..."
+    },
+    "shortcutText": {
+        "message": "Tecla de atajo: Alt+J"
+    },
+    "invalidSite": {
+        "message": "Error: El sitio actual no es un sitio web válido"
+    },
+    "noJs": {
+        "message": "Error: No se pudo recuperar la configuración de JavaScript para este sitio"
+    },
+    "js_allowed": {
+        "message": "JavaScript ahora está permitido en este sitio."
+    },
+    "js_blocked": {
+        "message": "JavaScript ahora está bloqueado en este sitio."
+    },
+    "optionsText": {
+        "message": "Opciones"
+    },
+    "refreshToggle": {
+        "message": "Actualizar página al alternar"
+    },
+    "save": {
+        "message": "Guardar"
+    }
+}
