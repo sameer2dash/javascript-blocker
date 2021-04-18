@@ -31,5 +31,8 @@
     },
     "save": {
         "message": "Guardar"
+    },
+    "optionsSaved": {
+        "message": "Se guardió las opciones."
     }
 }

@@ -17,7 +17,7 @@ document.getElementById('save').addEventListener('click', () => {
         refresh: refresh
     }, () => {
         const message = document.getElementById('message');
-        message.textContent = 'Options saved.';
+        message.textContent = chrome.i18n.getMessage('optionsSaved');
         setTimeout(() => {
             message.textContent = '\u00A0';
         }, 1000);
