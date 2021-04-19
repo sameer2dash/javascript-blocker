@@ -11,15 +11,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-document.getElementById('save').addEventListener('click', () => {
+document.getElementById('save').addEventListener('click', async () => {
     const refresh = document.getElementById('refresh').checked;
-    chrome.storage.sync.set({
+    await chrome.storage.sync.set({
         refresh: refresh
-    }, () => {
-        const message = document.getElementById('message');
-        message.textContent = chrome.i18n.getMessage('optionsSaved');
-        setTimeout(() => {
-            message.textContent = '\u00A0';
-        }, 1000);
     });
+
+    const message = document.getElementById('message');
+    message.textContent = chrome.i18n.getMessage('optionsSaved');
+    setTimeout(() => {
+        message.textContent = '\u00A0';
+    }, 1000);
 });
