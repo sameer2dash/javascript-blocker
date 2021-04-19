@@ -5,19 +5,21 @@
 
         <style>
             body {
-                width: 250px;
-                font-size: 18px;
+                width: 300px;
+                font-size: 16px;
             }
             p {
-                font-size: 12px;
+                display: inline;
             }
         </style>
     </head>
     <body>
         <div id="message">&nbsp;</div>
         <hr>
-        <p data-message="shortcutText">Shortcut key: Alt+J</p>
         <a id="optionsLink" href="options.html" data-message="optionsText">Options</a>
+        <br>
+        <a id="shortcutsLink" href="chrome://extensions/shortcuts" data-message="shortcutsLinkText">Keyboard shortcut</a>
+        <p data-message="shortcutText">(Default: Alt+J)</p>
 
         <script src="popup.js"></script>
     </body>

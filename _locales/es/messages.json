@@ -3,13 +3,13 @@
         "message": "Bloqueador de JavaScript"
     },
     "extDesc": {
-        "message": "Alternar rápidamente el JavaScript en un sitio con un keybind"
+        "message": "Alternar rápidamente JavaScript en un sitio con un keybind"
     },
     "workingText": {
         "message": "Trabajando..."
     },
     "shortcutText": {
-        "message": "Tecla de atajo: Alt+J"
+        "message": "(Predeterminada: Alt+J)"
     },
     "invalidSite": {
         "message": "Error: El sitio actual no es un sitio web válido"
@@ -34,5 +34,8 @@
     },
     "optionsSaved": {
         "message": "Se guardió las opciones."
+    },
+    "shortcutsLinkText": {
+        "message": "Tecla de atajo"
     }
 }

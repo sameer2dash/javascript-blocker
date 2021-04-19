@@ -2,7 +2,7 @@ const message = document.getElementById('message');
 
 // localize the HTML
 document.querySelectorAll('[data-message]').forEach(elem => {
-    elem.textContent = chrome.i18n.getMessage(elem.dataset.message);
+    elem.textContent = chrome.i18n.getMessage(elem.dataset.message) || elem.textContent;
 });
 
 document.getElementById('optionsLink').addEventListener('click', (e) => {
@@ -12,6 +12,11 @@ document.getElementById('optionsLink').addEventListener('click', (e) => {
     } else {
         window.open(chrome.runtime.getURL('options.html'));
     }
+});
+
+document.getElementById('shortcutsLink').addEventListener('click', (e) => {
+    e.preventDefault();
+    chrome.tabs.create({ url: 'chrome://extensions/shortcuts' });
 });
 
 

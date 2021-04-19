@@ -9,7 +9,7 @@
         "message": "Working..."
     },
     "shortcutText": {
-        "message": "Shortcut key: Alt+J"
+        "message": "(Default: Alt+J)"
     },
     "invalidSite": {
         "message": "Error: Current page is not a valid website"
@@ -34,5 +34,8 @@
     },
     "optionsSaved": {
         "message": "Options saved."
+    },
+    "shortcutsLinkText": {
+        "message": "Keyboard shortcut"
     }
 }
