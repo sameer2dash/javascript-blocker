@@ -8,9 +8,6 @@
     "workingText": {
         "message": "Trabajando..."
     },
-    "shortcutText": {
-        "message": "(Predeterminada: Alt+J)"
-    },
     "invalidSite": {
         "message": "Error: El sitio actual no es un sitio web válido"
     },
@@ -35,7 +32,16 @@
     "optionsSaved": {
         "message": "Se guardió las opciones."
     },
-    "shortcutsLinkText": {
-        "message": "Tecla de atajo"
+    "shortcutsEditText": {
+        "message": "Editar tecla de atajo"
+    },
+    "shortcutsRestart": {
+        "message": "(puede que necesite reiniciar el navegador)"
+    },
+    "clearSettings": {
+        "message": "Borrar todos los ajustes establecidos por esta extensión"
+    },
+    "settingsCleared": {
+        "message": "Se borró todos los ajustes."
     }
 }

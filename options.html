@@ -1,34 +1,59 @@
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Options - JavaScript Blocker</title>
 
-        <style>
-            * {
-                margin: 0;
-            }
-            body {
-                font-size: 16px;
-                margin: 24px;
-            }
-            #message {
-                color: #555;
-                font-style: italic;
-            }
-            button {
-                font: inherit;
-            }
-        </style>
-    </head>
-    <body>
-        <input type="checkbox" id="refresh">
-        <label for="refresh" data-message="refreshToggle">Refresh page on toggle</label>
-        <br>
-        <br>
+<head>
+    <meta charset="UTF-8" />
+    <title>Options - JavaScript Blocker</title>
 
-        <div id="message">&nbsp;</div>
-        <button data-message="save" id="save">Save</button>
+    <style>
+        * {
+            margin: 0;
+        }
 
-        <script src="options.js"></script>
-    </body>
+        body {
+            font-size: 16px;
+            margin: 24px;
+            line-height: 1.5;
+        }
+
+        #message,
+        p {
+            color: #555;
+            font-style: italic;
+        }
+
+        a {
+            display: inline-block;
+        }
+
+        p {
+            display: inline;
+        }
+        hr {
+            margin: 16px 0;
+        }
+
+        button {
+            font: inherit;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="checkbox" id="refresh">
+    <label for="refresh" data-message="refreshToggle">Refresh page on toggle</label>
+    <br>
+    <br>
+    <div id="message">&nbsp;</div>
+    <button data-message="save" id="save">Save</button>
+
+    <hr>
+
+    <a id="shortcutsLink" href="chrome://extensions/shortcuts" data-message="shortcutsEditText">Edit keyboard shortcut</a>
+    <p data-message="shortcutsRestart">(may need to restart browser)</p>
+    <br>
+    <a id="clearSettings" href="#" data-message="clearSettings">Clear all settings set by this extension</a>
+
+    <script src="options.js"></script>
+</body>
+
 </html>

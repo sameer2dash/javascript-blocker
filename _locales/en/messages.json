@@ -8,9 +8,6 @@
     "workingText": {
         "message": "Working..."
     },
-    "shortcutText": {
-        "message": "(Default: Alt+J)"
-    },
     "invalidSite": {
         "message": "Error: Current page is not a valid website"
     },
@@ -35,7 +32,16 @@
     "optionsSaved": {
         "message": "Options saved."
     },
-    "shortcutsLinkText": {
-        "message": "Keyboard shortcut"
+    "shortcutsEditText": {
+        "message": "Edit keyboard shortcut"
+    },
+    "shortcutsRestart": {
+        "message": "(may need to restart browser)"
+    },
+    "clearSettings": {
+        "message": "Clear all settings set by this extension"
+    },
+    "settingsCleared": {
+        "message": "Cleared all settings."
     }
 }
