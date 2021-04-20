@@ -1,26 +1,27 @@
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>JavaScript Blocker</title>
 
-        <style>
-            body {
-                width: 300px;
-                font-size: 16px;
-            }
-            p {
-                display: inline;
-            }
-        </style>
-    </head>
-    <body>
-        <div id="message">&nbsp;</div>
-        <hr>
-        <a id="optionsLink" href="options.html" data-message="optionsText">Options</a>
-        <br>
-        <a id="shortcutsLink" href="chrome://extensions/shortcuts" data-message="shortcutsLinkText">Keyboard shortcut</a>
-        <p data-message="shortcutText">(Default: Alt+J)</p>
+<head>
+    <meta charset="UTF-8" />
+    <title>JavaScript Blocker</title>
 
-        <script src="popup.js"></script>
-    </body>
+    <style>
+        body {
+            width: 300px;
+            font-size: 16px;
+        }
+
+        p {
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="message">&nbsp;</div>
+    <hr>
+    <a id="optionsLink" href="options.html" data-message="optionsText">Options</a>
+
+    <script src="popup.js"></script>
+</body>
+
 </html>

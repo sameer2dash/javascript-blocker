@@ -8,9 +8,6 @@
     "workingText": {
         "message": "Trabajando..."
     },
-    "shortcutText": {
-        "message": "(Predeterminada: Alt+J)"
-    },
     "invalidSite": {
         "message": "Error: El sitio actual no es un sitio web válido"
     },
@@ -34,9 +31,6 @@
     },
     "optionsSaved": {
         "message": "Se guardió las opciones."
-    },
-    "shortcutsLinkText": {
-        "message": "Tecla de atajo"
     },
     "shortcutsEditText": {
         "message": "Editar tecla de atajo"
