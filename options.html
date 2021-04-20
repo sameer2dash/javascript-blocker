@@ -10,10 +10,18 @@
             body {
                 font-size: 16px;
                 margin: 24px;
+                line-height: 1.5;
             }
-            #message {
+            #message, p {
                 color: #555;
                 font-style: italic;
+            }
+            a {
+                margin-top: 1em;
+                display: inline-block;
+            }
+            p {
+                display: inline;
             }
             button {
                 font: inherit;
@@ -23,6 +31,9 @@
     <body>
         <input type="checkbox" id="refresh">
         <label for="refresh" data-message="refreshToggle">Refresh page on toggle</label>
+        <br>
+        <a id="shortcutsLink" href="chrome://extensions/shortcuts" data-message="shortcutsEditText">Edit keyboard shortcut</a>
+        <p data-message="shortcutsRestart">(may need to restart browser)</p>
         <br>
         <br>
 

@@ -37,5 +37,11 @@
     },
     "shortcutsLinkText": {
         "message": "Tecla de atajo"
+    },
+    "shortcutsEditText": {
+        "message": "Editar tecla de atajo"
+    },
+    "shortcutsRestart": {
+        "message": "(puede que necesite reiniciar el navegador)"
     }
 }
