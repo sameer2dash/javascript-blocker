@@ -1,7 +1,7 @@
 {
     "name": "__MSG_extName__",
     "version": "0.1.0",
-    "manifest_version": 3,
+    "manifest_version": 2,
     "description": "__MSG_extDesc__",
     "default_locale": "en",
     "permissions": [
@@ -9,7 +9,7 @@
         "contentSettings",
         "storage"
     ],
-    "action": {
+    "browser_action": {
         "default_popup": "popup.html"
     },
     "options_ui": {
@@ -17,7 +17,7 @@
         "open_in_tab": false
     },
     "commands": {
-        "_execute_action": {
+        "_execute_browser_action": {
             "suggested_key": {
                 "default": "Alt+J"
             }
