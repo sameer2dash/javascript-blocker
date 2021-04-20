@@ -43,5 +43,11 @@
     },
     "shortcutsRestart": {
         "message": "(may need to restart browser)"
+    },
+    "clearSettings": {
+        "message": "Clear all settings set by this extension"
+    },
+    "settingsCleared": {
+        "message": "Cleared all settings."
     }
 }

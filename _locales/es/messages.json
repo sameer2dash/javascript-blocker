@@ -43,5 +43,11 @@
     },
     "shortcutsRestart": {
         "message": "(puede que necesite reiniciar el navegador)"
+    },
+    "clearSettings": {
+        "message": "Borrar todos los ajustes establecidos por esta extensión"
+    },
+    "settingsCleared": {
+        "message": "Se borró todos los ajustes."
     }
 }
